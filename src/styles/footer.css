@@ -1,0 +1,27 @@
+.footer-container {
+  padding: 6rem 0;
+
+  background: #29323c; /* fallback for old browsers */
+}
+
+.social-icons-container {
+  margin: 0;
+}
+.social-icons {
+  padding-bottom: 0.2rem;
+  margin: 1rem;
+  align-items: center;
+  color: #77acf1;
+  border-bottom: 0.1rem solid #77acf1;
+  transition: all 0.4s ease-in-out;
+}
+.social-icons:hover {
+  transform: translateY(-10px);
+  border-bottom: 0;
+  background-color: #77acf1;
+  color: #29323c;
+}
+.footer-text {
+  color: #77acf1;
+  font-size: 1.1rem;
+}

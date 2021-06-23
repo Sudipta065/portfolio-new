@@ -1,17 +1,7 @@
 .header-container {
   padding: 10rem 0;
 
-  background: #485563; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #29323c,
-    #485563
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #29323c,
-    #485563
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #29323c; /* fallback for old browsers */
 }
 
 .picture-container {
@@ -33,10 +23,13 @@
   border: 2px solid #77acf1;
 }
 .resume-btn {
+  font-family: "Montserrat", sans-serif;
   background-color: #77acf1;
+
   color: #c0fefc;
   text-decoration: none;
-  padding: 0.4rem 1rem;
+  padding: 0.4rem 1.4rem;
+  font-size: 1.2rem;
   border-radius: 1rem;
 }
 .resume-btn:hover {
@@ -64,21 +57,7 @@
   font-size: 3rem;
   text-align: center;
 }
-.social-icons-container {
-  margin: 0;
-}
-.social-icons {
-  padding-bottom: 0.2rem;
-  margin: 1rem;
-  align-items: center;
-  color: #77acf1;
-  border-bottom: 0.1rem solid #77acf1;
-  transition: all 0.4s ease-in-out;
-}
-.social-icons:hover {
-  border-bottom: 0;
-  color: #77acf1;
-}
+
 /*
     font-family: 'Montserrat', sans-serif;
 

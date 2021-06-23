@@ -22,7 +22,7 @@ const Projects = () => {
                   <h5 class="card-title">
                     {" "}
                     <a
-                      href={"https://github.com/Sudipta065"}
+                      href={"https://beach-resort-hotelbooking.netlify.app/"}
                       target="_blank"
                       className="project-btn"
                     >
@@ -40,7 +40,7 @@ const Projects = () => {
                 <div class="card-img-overlay">
                   <h5 class="card-title">
                     <a
-                      href={"https://github.com/Sudipta065"}
+                      href={"https://ecommerce-site-reactjs-phone.netlify.app/"}
                       target="_blank"
                       className="project-btn"
                     >
@@ -58,7 +58,7 @@ const Projects = () => {
                   <h5 class="card-title">
                     {" "}
                     <a
-                      href={"https://github.com/Sudipta065"}
+                      href={"https://covidchartupdate.netlify.app/"}
                       target="_blank"
                       className="project-btn"
                     >
@@ -78,7 +78,7 @@ const Projects = () => {
                   <h5 class="card-title">
                     {" "}
                     <a
-                      href={"https://github.com/Sudipta065"}
+                      href={"https://sudipta065.github.io/wikipedia-viewer/"}
                       target="_blank"
                       className="project-btn"
                     >
@@ -96,7 +96,7 @@ const Projects = () => {
                 <div class="card-img-overlay">
                   <h5 class="card-title">
                     <a
-                      href={"https://github.com/Sudipta065"}
+                      href={"https://sudipta065.github.io/natours-project/"}
                       target="_blank"
                       className="project-btn"
                     >
@@ -114,7 +114,7 @@ const Projects = () => {
                   <h5 class="card-title">
                     {" "}
                     <a
-                      href={"https://github.com/Sudipta065"}
+                      href={"https://sudipta065.github.io/localweatherupdate/"}
                       target="_blank"
                       className="project-btn"
                     >

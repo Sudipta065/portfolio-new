@@ -8,15 +8,15 @@ import {
 } from "react-icons/all";
 const Footer = () => {
   return (
-    <div className="header-container">
-      <div className="container">
+    <div className="footer-container">
+      <div className="container d-flex align-items-center flex-column ">
         <div className="social-icons-container d-flex justify-content-center align-items-center">
           <a
             href={"https://github.com/Sudipta065"}
             target="_blank"
             className="social-icons"
           >
-            <AiFillGithub size={30} />
+            <AiFillGithub size={50} />
           </a>
 
           <a
@@ -24,7 +24,7 @@ const Footer = () => {
             target="_blank"
             className="social-icons"
           >
-            <AiFillLinkedin size={30} />
+            <AiFillLinkedin size={50} />
           </a>
 
           <a
@@ -32,9 +32,11 @@ const Footer = () => {
             target="_blank"
             className="social-icons"
           >
-            <AiOutlineCodepen size={30} />
+            <AiOutlineCodepen size={50} />
           </a>
         </div>
+
+        <div className="footer-text">All rights reserved. Sudipta ©2021</div>
       </div>
     </div>
   );

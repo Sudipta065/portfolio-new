@@ -44,11 +44,6 @@ const Experience = () => {
               </ul>
               <div style={{ textAlign: "center" }}>
                 <a
-                  style={{
-                    padding: "0.3rem 2rem",
-                    background: "#91C788",
-                    color: "#206A5D",
-                  }}
                   className="companyLink"
                   target="_blank"
                   rel="noopener noreferrer"

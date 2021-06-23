@@ -17,7 +17,17 @@
 .vertical-timeline.vertical-timeline-custom-line::before {
   background: #91c788;
 }
-
+.companyLink {
+  padding: 0.3rem 2rem;
+  color: #91c788;
+  background: #206a5d;
+  font-size: 1.2rem;
+}
+.companyLink:hover {
+  text-decoration: none;
+  color: #206a5d;
+  background-color: #feffde;
+}
 /* Icon container's border */
 .vertical-timeline.vertical-timeline-custom-line
   .vertical-timeline-element--work
