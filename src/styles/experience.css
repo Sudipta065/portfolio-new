@@ -1,0 +1,34 @@
+.experiences-container {
+  font-family: "Montserrat", sans-serif;
+  padding-top: 2rem;
+  padding-bottom: 6rem;
+  display: flex;
+  flex-direction: column;
+}
+.header-experience {
+  align-self: center;
+  margin-bottom: 3rem;
+  color: #206a5d;
+  font-size: 2.5rem;
+  border-bottom: 1px solid #206a5d;
+
+  font-family: "Montserrat", sans-serif;
+}
+.vertical-timeline.vertical-timeline-custom-line::before {
+  background: #91c788;
+}
+
+/* Icon container's border */
+.vertical-timeline.vertical-timeline-custom-line
+  .vertical-timeline-element--work
+  .vertical-timeline-element-icon {
+  box-shadow: 0 0 0 4px #91c788, inset 0 2px 0 rgba(0, 0, 0, 0.08),
+    0 3px 0 4px rgba(0, 0, 0, 0.05);
+}
+
+.vertical-timeline.vertical-timeline-custom-line
+  .vertical-timeline-element--education
+  .vertical-timeline-element-icon {
+  box-shadow: 0 0 0 4px #3f3a3c, inset 0 2px 0 rgba(0, 0, 0, 0.08),
+    0 3px 0 4px rgba(0, 0, 0, 0.05);
+}

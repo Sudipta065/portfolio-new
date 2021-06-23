@@ -1,0 +1,28 @@
+{
+  "data": [
+    {
+      "date": "October 2020 - Present",
+      "position": "Junior Developer",
+      "company": "Monico Technologies Ltd.",
+      "key": 1,
+      "description": [
+        "Integrated add asset form for adding assets of a vehicle tracking service application Finder Lbs GPS Tracking using get and post API",
+        "Sorted the list of assets for three different parameters (Active,Date & Name)",
+        "managed the states and integrated the data of different reports in Areachart and Piechart using Recharts",
+        "Developed UI of ProductDetails screen and FilterProducts screen using React Native"
+      ],
+      "link": "http://www.monicotechnologies.com/"
+    },
+    {
+      "date": "July 2020 - October 2020",
+      "position": "Front End Developer Intern",
+      "company": "Softify DIgital Ltd.",
+      "key": 2,
+      "description": [
+        "Designed their main website (softifydigital.com) using HTML5, CSS3, Bootstrap, Owl Carousal and vanilla JavaScript & JQuery.",
+        "Created Checkout page, Single Product page using Bootstrap and CSS3 and designed and implemented pop ups using jQuery of an e-commerce site Islampur Market  and tested the website to identify the bugs."
+      ],
+      "link": "https://softifydigital.com/"
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+.skills-container {
+  padding-top: 2rem;
+  padding-bottom: 6rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.header-skill {
+  align-self: center;
+  margin-bottom: 3rem;
+  color: #29323c;
+  font-size: 2.5rem;
+  border-bottom: 1px solid #29323c;
+
+  font-family: "Montserrat", sans-serif;
+}
+.container-with-dots {
+  margin: 0 9rem;
+}
+.skill-section {
+  justify-content: center;
+}
+.skill-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  height: 100%;
+  width: 100%;
+}
+
+.javascript,
+.react,
+.sass,
+.bootstrap,
+.jquery,
+.css,
+.html,
+.react,
+.redux,
+.git {
+  font-size: 9rem;
+}
+
+.javascript-text,
+.react-text,
+.sass-text,
+.bootstrap-text,
+.jquery-text,
+.css-text,
+.html-text,
+.react-text,
+.redux-text,
+.git-text {
+  font-size: 1.6rem;
+}
+
+.javascript,
+.javascript-text {
+  color: #f0db4f;
+}
+
+.react,
+.react-text {
+  color: #61dbfb;
+}
+
+.sass,
+.sass-text {
+  color: #cc6699;
+}
+.bootstrap,
+.bootstrap-text {
+  color: #563d7c;
+}
+.jquery,
+.jquery-text {
+  color: #0868ac;
+}
+.css,
+.css-text {
+  color: #264de4;
+}
+.html,
+.html-text {
+  color: #e44d26;
+}
+.redux,
+.redux-text {
+  color: #764abc;
+}
+.git,
+.git-text {
+  color: #f1502f;
+}
