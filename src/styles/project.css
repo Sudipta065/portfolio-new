@@ -59,3 +59,25 @@
   justify-content: space-around;
   width: 100%;
 }
+@media only screen and (max-width: 80em) {
+}
+
+@media only screen and (max-width: 65em) {
+  .project-btn {
+    padding: 0.2rem 0.5rem;
+    font-size: 1.1rem;
+  }
+}
+/* 768px*/
+@media only screen and (max-width: 55.5em) {
+  .project-row {
+    flex-direction: column;
+  }
+  .project-btn {
+    padding: 0.2rem 1rem;
+    font-size: 1.2rem;
+  }
+}
+/* 480px*/
+@media only screen and (max-width: 30em) {
+}

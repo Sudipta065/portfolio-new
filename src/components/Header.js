@@ -10,15 +10,15 @@ import {
 const Header = () => {
   return (
     <div className="header-container">
-      <div className="container">
+      <div className="">
         <div className="row ">
-          <div className="col-md-4 d-flex flex-column align-items-center ">
+          <div className="col-md-5 d-flex flex-column align-items-center justify-content-center  left-container ">
             <div className="picture-container ">
               <img src={DP} className="picture" alt="Logo" />;
             </div>{" "}
             <div className="header-name">Sudipta Adhikary</div>
           </div>
-          <div className="col-md-8">
+          <div className="col-md-7 right-container">
             <div className="row words-container">
               <div className="fixed-word"> I Am A </div>
               <div className="animated-word">

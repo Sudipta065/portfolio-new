@@ -1,7 +1,7 @@
 .experiences-container {
   font-family: "Montserrat", sans-serif;
-  padding-top: 2rem;
-  padding-bottom: 6rem;
+
+  padding: 2rem 1.5rem 6rem 1.5rem;
   display: flex;
   flex-direction: column;
 }
@@ -17,6 +17,11 @@
 .vertical-timeline.vertical-timeline-custom-line::before {
   background: #91c788;
 }
+.list {
+  list-style: square;
+  margin-top: 0.5rem;
+}
+
 .companyLink {
   padding: 0.3rem 2rem;
   color: #91c788;
@@ -41,4 +46,15 @@
   .vertical-timeline-element-icon {
   box-shadow: 0 0 0 4px #3f3a3c, inset 0 2px 0 rgba(0, 0, 0, 0.08),
     0 3px 0 4px rgba(0, 0, 0, 0.05);
+}
+@media only screen and (max-width: 35em) {
+  .vertical-timeline-element-title {
+    font-size: 1.2rem;
+  }
+  .vertical-timeline-element-subtitle {
+    font-size: 1rem;
+  }
+  .list {
+    font-size: 0.9rem;
+  }
 }

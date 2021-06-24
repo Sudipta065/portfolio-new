@@ -39,26 +39,34 @@ const Skills = () => {
             desktop: {
               breakpoint: {
                 max: 3000,
-                min: 1024,
+                min: 1000,
               },
               items: 4,
               partialVisibilityGutter: 40,
             },
             mobile: {
               breakpoint: {
-                max: 464,
-                min: 0,
+                max: 748,
+                min: 620,
+              },
+              items: 2,
+              partialVisibilityGutter: 20,
+            },
+            mobileSmall: {
+              breakpoint: {
+                max: 620,
+                min: 100,
               },
               items: 1,
-              partialVisibilityGutter: 30,
+              partialVisibilityGutter: 0,
             },
             tablet: {
               breakpoint: {
-                max: 1024,
-                min: 464,
+                max: 999,
+                min: 748,
               },
-              items: 2,
-              partialVisibilityGutter: 30,
+              items: 3,
+              partialVisibilityGutter: 20,
             },
           }}
           showDots={false}

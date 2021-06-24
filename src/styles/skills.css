@@ -94,3 +94,21 @@
 .git-text {
   color: #f1502f;
 }
+
+@media only screen and (max-width: 80em) {
+}
+/* 1080px*/
+@media only screen and (max-width: 64em) {
+}
+/* 768px*/
+@media only screen and (max-width: 48em) {
+  .container-with-dots {
+    margin: 0 5rem;
+  }
+}
+/* 480px*/
+@media only screen and (max-width: 30em) {
+  .container-with-dots {
+    margin: 0 3rem;
+  }
+}

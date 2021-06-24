@@ -39,7 +39,7 @@ const Experience = () => {
               </h4>
               <ul>
                 {experience.description.map((desc) => (
-                  <li>{desc}</li>
+                  <li className="list">{desc}</li>
                 ))}
               </ul>
               <div style={{ textAlign: "center" }}>
